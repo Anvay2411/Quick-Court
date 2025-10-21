@@ -15,8 +15,9 @@
     ],
     "installCommand": "npm install --prefix backend",
     "env": {
-      "SMTP_USER": "@smtp_user",
-      "SMTP_PASS": "@smtp_pass"
+      "BREVO_API_KEY": "@brevo_api_key",
+      "FROM_EMAIL": "@from_email",
+      "FROM_NAME": "@from_name"
     }
   }
   
